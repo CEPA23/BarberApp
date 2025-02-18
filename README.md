@@ -1,16 +1,40 @@
-# barberapp
+# BarberApp
 
-App Barberia Peludito
+**Aplicación para la gestión de citas en una barbería**
 
-## Getting Started
+## Descripción
+BarberApp es una aplicación desarrollada en **Flutter** que permite a los clientes agendar citas en una barbería de manera fácil y rápida. La aplicación proporciona una interfaz intuitiva para seleccionar servicios, horarios y gestionar reservas.
 
-This project is a starting point for a Flutter application.
+## Características principales
+✅ Registro y gestión de citas
+✅ Visualización de servicios disponibles
+✅ Integración con Firebase para el almacenamiento de datos
+✅ Interfaz moderna y amigable
+✅ Notificaciones para recordatorios de citas
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías utilizadas
+- **Flutter** (Dart)
+- **Firebase Firestore** (Base de datos en la nube)
+- **Provider / Riverpod** (Gestor de estado, opcional)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalación y configuración
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/CEPA23/BarberApp.git
+   cd BarberApp
+   ```
+2. Instalar las dependencias:
+   ```bash
+   flutter pub get
+   ```
+3. Configurar Firebase:
+   - Crear un proyecto en Firebase
+   - Descargar el archivo `google-services.json` y colocarlo en `android/app/`
+   - Configurar Firebase en iOS si aplica
+4. Ejecutar la aplicación:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contribuciones
+Si deseas contribuir al proyecto, puedes hacer un fork del repositorio, crear una rama con tu función o mejora, y enviar un pull request.
